@@ -1,0 +1,55 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Hardhat
+/artifacts
+/cache
+/typechain
+/typechain-types
+
+# Contract artifacts
+/src/artifacts
+/src/contracts
+
+# Secret files
+.secret
+hardhat.config.js
+.env
+
+# IDE
+.idea
+.vscode
+
+# Vercel
+.vercel
+
+# Contract deployment data
+/deployments
